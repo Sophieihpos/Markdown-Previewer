@@ -2,7 +2,7 @@ import React from 'react'
 
 function Editor(props){
   return(
-    <textarea id="editor" className="box" onChange={props.handleChange} name="markdown" value={props.value}></textarea>
+    <textarea id="editor" className="box" onChange={props.onChange} name="markdown" value={props.value}></textarea>
   )
 }
 
